@@ -17,7 +17,7 @@ function addItem(e) {
     li.appendChild(document.createTextNode(newItem))
 
     const button = createButton("remove-item btn-link text-red")
-    li.appendChild(button)
+    li.appendChild(button);
 
     itemList.appendChild(li);
 
